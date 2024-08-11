@@ -54,7 +54,6 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
         status: 404,
         message: `Product with id ${id} not found`
       })
-      // throw new NotFoundException(`Product with id ${id} not found`);
     }
     return product;
   }
